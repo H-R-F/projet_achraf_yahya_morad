@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ^style morad */
+
+/* ^end style morad */
+
+/* !style yahia */
+
+/* !end style yahia */
+
+/* *style achraf */
+
+/* *section achraf 1 */
+.container {
+    background-color: #6d48e5;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.h_p {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 15vh;
+    justify-content: space-evenly;
+}
+
+.pourcentage {
+    display: flex;
+    width: 60vw;
+    justify-content: space-evenly;
+    text-align: center;
+    font-weight: bold;
+}
+
+.pourcentage_1 {
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.pourcentage_1 h1 {
+    font-size: 50px;
+}
+
+.pourcentage_1 p {
+    font-size: 10px;
+}
+
+.container>a {
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+/* *end section achraf 1 */
+
+/* *section achraf 2 */
+
+.second_container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 4%;
+}
+
+.icon img {
+    width: 50px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    height: 46vh;
+    justify-content: space-evenly;
+}
+
+.for_icon {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: space-evenly;
+}
+
+.left {
+    display: flex;
+    width: 30vw;
+    justify-content: space-evenly;
+}
+
+.right img {
+    width: 60vh;
+}
+
+/* *end section achraf 2 */
+
+/* *footer achraf */
+footer {
+    background-color: #6d48e510;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.h_p_footer p {
+    font-size: x-small;
+    color: grey;
+}
+
+.put_email {
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    justify-content: space-evenly;
+    width: 20vw;
+}
+
+input,
+button {
+    height: 5vh;
+}
+
+input::placeholder {
+    padding-left: 20px;
+    font-size: x-small;
+}
+
+button {
+    background-color: #6d48e5;
+    border: 0px;
+    border-radius: 2px;
+}
+
+.put_email button a {
+    text-decoration: none;
+    color: white;
+}
+
+.put_email p {
+    font-size: x-small;
+    color: grey;
+}
+
+.nav_footer {
+    display: flex;
+    width: 90vw;
+    justify-content: space-evenly;
+}
+
+.nav_footer a {
+    text-decoration: none;
+    color: #6d48e5;
+    font-weight: bold;
+}
+
+.nav_footer p {
+    font-size: small;
+    color: gray;
+    padding-left: 210px;
+}
+
+.links_footer {
+    display: flex;
+    width: 20vw;
+    justify-content: space-evenly;
+}
+
+/* *end footer achraf */
+
+/* *end style achraf */
